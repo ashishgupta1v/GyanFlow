@@ -57,3 +57,25 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+---
+
+## Project: GyanFlow
+
+GyanFlow — A Hinglish micro-learning platform with AI-driven summaries and audio synthesis.
+
+Quickstart
+
+- Copy `.env.example` to `.env` and set your DB credentials.
+- Install PHP dependencies: `composer install`.
+- Install node dependencies / build assets: `npm install && npm run dev` (optional for API-only work).
+- Run migrations: `php artisan migrate` (ensure your DB is configured).
+
+Testing & CI
+
+- This repo includes a GitHub Actions workflow at `.github/workflows/ci.yml` that runs composer install and PHPUnit using an in-memory SQLite DB.
+
+Contributing
+
+- Create feature branches, run tests locally, and open a PR.
+
