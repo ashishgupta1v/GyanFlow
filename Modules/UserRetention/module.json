@@ -1,0 +1,11 @@
+{
+    "name": "UserRetention",
+    "alias": "userretention",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\UserRetention\\Providers\\UserRetentionServiceProvider"
+    ],
+    "files": []
+}
