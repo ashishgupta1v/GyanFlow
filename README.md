@@ -73,7 +73,7 @@ Quickstart
 
 Testing & CI
 
-- This repo includes a GitHub Actions workflow at `.github/workflows/ci.yml` that runs composer install and PHPUnit using an in-memory SQLite DB.
+- This repo includes a GitHub Actions workflow at `.github/workflows/ci.yml` that runs composer install, provisions a PostgreSQL service, runs migrations, and executes PHPUnit against PostgreSQL.
 
 Contributing
 
