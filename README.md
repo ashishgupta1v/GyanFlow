@@ -70,6 +70,7 @@ Quickstart
 - Install PHP dependencies: `composer install`.
 - Install node dependencies / build assets: `npm install && npm run dev` (optional for API-only work).
 - Run migrations: `php artisan migrate` (ensure your DB is configured).
+- For semantic embedding support on PostgreSQL, install/enable the `pgvector` extension. If unavailable, `summaries.embedding` falls back to JSON.
 
 Testing & CI
 
